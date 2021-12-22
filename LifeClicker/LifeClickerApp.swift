@@ -11,7 +11,28 @@ import SwiftUI
 struct LifeClickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationView {
+                    BusinessesView()
+                }
+                .tabItem {
+                    Text("Businesses")
+                }
+
+                NavigationView {
+                    InvestmentsView()
+                }
+                .tabItem {
+                    Text("Investments")
+                }
+
+                NavigationView {
+                    JobsView()
+                }
+                .tabItem {
+                    Text("Jobs")
+                }
+            }
         }
     }
 }

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		944B7ADD2773D0BF008CF1FB /* LifeClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7ADC2773D0BF008CF1FB /* LifeClickerApp.swift */; };
-		944B7ADF2773D0BF008CF1FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7ADE2773D0BF008CF1FB /* ContentView.swift */; };
 		944B7AE12773D0C1008CF1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944B7AE02773D0C1008CF1FB /* Assets.xcassets */; };
 		944B7AE42773D0C1008CF1FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944B7AE32773D0C1008CF1FB /* Preview Assets.xcassets */; };
 		944B7AEE2773D0C1008CF1FB /* LifeClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7AED2773D0C1008CF1FB /* LifeClickerTests.swift */; };
 		944B7AF82773D0C1008CF1FB /* LifeClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7AF72773D0C1008CF1FB /* LifeClickerUITests.swift */; };
 		944B7AFA2773D0C1008CF1FB /* LifeClickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7AF92773D0C1008CF1FB /* LifeClickerUITestsLaunchTests.swift */; };
+		944B7B072773D71E008CF1FB /* InvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7B062773D71E008CF1FB /* InvestmentsView.swift */; };
+		944B7B092773D7A7008CF1FB /* BusinessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7B082773D7A7008CF1FB /* BusinessesView.swift */; };
+		944B7B0B2773D7CC008CF1FB /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B7B0A2773D7CC008CF1FB /* JobsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		944B7AD92773D0BF008CF1FB /* LifeClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B7ADC2773D0BF008CF1FB /* LifeClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeClickerApp.swift; sourceTree = "<group>"; };
-		944B7ADE2773D0BF008CF1FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		944B7AE02773D0C1008CF1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944B7AE32773D0C1008CF1FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		944B7AE92773D0C1008CF1FB /* LifeClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		944B7AF32773D0C1008CF1FB /* LifeClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B7AF72773D0C1008CF1FB /* LifeClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeClickerUITests.swift; sourceTree = "<group>"; };
 		944B7AF92773D0C1008CF1FB /* LifeClickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeClickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		944B7B062773D71E008CF1FB /* InvestmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsView.swift; sourceTree = "<group>"; };
+		944B7B082773D7A7008CF1FB /* BusinessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesView.swift; sourceTree = "<group>"; };
+		944B7B0A2773D7CC008CF1FB /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		944B7ADB2773D0BF008CF1FB /* LifeClicker */ = {
 			isa = PBXGroup;
 			children = (
+				944B7B082773D7A7008CF1FB /* BusinessesView.swift */,
+				944B7B0A2773D7CC008CF1FB /* JobsView.swift */,
+				944B7B062773D71E008CF1FB /* InvestmentsView.swift */,
 				944B7ADC2773D0BF008CF1FB /* LifeClickerApp.swift */,
-				944B7ADE2773D0BF008CF1FB /* ContentView.swift */,
 				944B7AE02773D0C1008CF1FB /* Assets.xcassets */,
 				944B7AE22773D0C1008CF1FB /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944B7ADF2773D0BF008CF1FB /* ContentView.swift in Sources */,
+				944B7B0B2773D7CC008CF1FB /* JobsView.swift in Sources */,
+				944B7B072773D71E008CF1FB /* InvestmentsView.swift in Sources */,
+				944B7B092773D7A7008CF1FB /* BusinessesView.swift in Sources */,
 				944B7ADD2773D0BF008CF1FB /* LifeClickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
